@@ -2,10 +2,11 @@
   "name": "es6",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/main.js",
+  "main": "src/main.js",
   "scripts": {
     "build": "babel src -d dist",
     "dev": "node dist/main.js",
+    "start": "node src/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
